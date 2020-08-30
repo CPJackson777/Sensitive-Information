@@ -55,4 +55,4 @@ Charles = Patient(123456789, "10/01/1983", 1234567, "Charles", "Jackson", "123 C
 
 print(Charles.ssn, Charles.dob, Charles.full_name, Charles.hin)
 
-# print(Charles.first_name) <-- throws error because we did not expose this specific property at all since we didn't give it its own getter.
+# print(Charles.first_name) <-- throws error because we did not expose this specific property by giving it its own getter.
