@@ -19,7 +19,7 @@ class Patient:
         self.__last_name = last_name
         self.__address = address
 
-    # The first three properties should be read-only. Therefore, add getters.
+    # The first three properties should be read-only. In order to set the properties as read-only, we must add getters.
     @property
     def ssn(self):
         return self.__ssn
