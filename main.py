@@ -51,8 +51,6 @@ class Patient:
 
 Charles = Patient(123456789, "10/01/1983", 1234567, "Charles", "Jackson", "123 Coder St")
 
-# Charles.address = 84844 <-- throws error because it's not a string like the conditional on line 47 says it needs to be
-
 print(Charles.ssn, Charles.dob, Charles.full_name, Charles.hin)
 
 # print(Charles.first_name) <-- throws error because we did not expose this specific property by giving it its own getter.
